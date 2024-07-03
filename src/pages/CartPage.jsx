@@ -18,7 +18,7 @@ const handleClearCart = ()=>{
     {
         cartItems?.map((item, index) => (
             <div key={index} >
-                <img src={item.image} alt={item.title} />
+                <img src={item.image} alt={item.title}/>
                 <h3> {item.title} </h3>
                 <p> {item.price} </p>
                 <p> {item.description}</p>
@@ -29,4 +29,4 @@ const handleClearCart = ()=>{
   )
 }
 
-export default CartPage
+export default CartPage;
